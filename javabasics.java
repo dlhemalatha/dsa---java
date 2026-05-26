@@ -5,6 +5,8 @@ public class javabasics {
     }
     
 }
+
+
 //variables
 public class variables {
     public static void main(String[] args) {
@@ -38,6 +40,7 @@ public class datatypes {
     
 }
 
+
 //inputs in java
 import java.util.*;
 
@@ -56,9 +59,50 @@ public class inputtypes {
         
         int number = sc.nextInt();
         System.out.println(number);
-        sc.close();
+       
+        // sum of two numbers
+          int a=sc.nextInt();
+          int b=sc.nextInt();
+          int sum=a+b;
+          System.out.println(sum);
+
+          //Area of the circle
+          float rad=sc.nextFloat();
+          float area=3.14f*rad*rad;
+          System.out.println(area);
+          sc.close();
+        
+        
 
     }
 }
 
+// Types conversion
+import java.util.*;
+
+public class typesconversions {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        float b=sc.nextInt();
+        System.out.println(b);
+        //output=2.0
+
+ // Type casting
+        float a=25.12f;
+        int b =(int)a;
+        System.out.println(b);
+        sc.close();
+        //output=25
+ 
+ //Types promotion in expression
+        byte a=5;
+        short b=10;
+        char ch='c';
+        System.out.println(a+b+ch);
+        sc.close();
+    //output=114
+    }
+}
 
