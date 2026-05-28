@@ -106,3 +106,37 @@ public class typesconversions {
     }
 }
 
+
+//operators
+/* Arithmatic operator are +,-,*,/,%
+    and we have three types urnary ,binary, thernary*/
+int A = 10;
+int B = 5;
+
+System.out.println(A+B);
+System.out.println(A*B);
+//output 15 , 50
+
+int a = 10;
+int b = ++a;
+
+System.out.println(a);
+System.out.println(b);
+//output 11,11
+
+//  Relational operator are ==,!=,<,>,<=,>=,
+
+// Logical operator &&,||,!
+System.out.println((3>2) && (5<0));
+//output = false
+
+int A = 10;
+A += 10;//A = A + 10
+int B = 5;
+B -= 5;//B = B - 5
+System.out.println(A);
+System.out.println(B);
+
+  }
+}
+
