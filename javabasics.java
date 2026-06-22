@@ -139,4 +139,44 @@ System.out.println(B);
 
   }
 }
+//conditional statements if-else,else-if
 
+//print largest of 3
+
+public class JavaBasics {
+
+    public static void main(String args[]) {
+
+        int A = 1, B = 3, C = 6;
+
+        if ((A >= B) && (A >= C)) {
+            System.out.println("Largest is A");
+        }
+        else if (B >= C) {
+            System.out.println("Largest is B");
+        }
+        else {
+            System.out.println("Largest is C");
+        }
+
+    }
+}
+
+public class conditionalstatements {
+    
+ public static void main(String args[]) {
+
+        int age = 15;
+
+        if(age >= 18) {
+            System.out.println("adult : drive, vote");
+        }
+         if(age>13 && age<18) {
+            System.out.println("teenager");
+        }
+            else {
+            System.out.println("not adult");
+        }
+
+    }
+}
